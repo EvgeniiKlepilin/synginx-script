@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "---Begin NGINX Server Configuration---"
 declare -a arr=("sudo cp test.demo.website.com /etc/nginx/sites-available/test.demo.website.com" # Might need to fix it: Can only call from
 #current directory: need to either specify full path for  test.demo.irokez or store it inside this file and create file from scratch
 #instead of copying it
